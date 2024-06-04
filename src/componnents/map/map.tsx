@@ -12,7 +12,7 @@ const ISS_UPDATE_INTERVAL = 10000;
 const backendURL = "http://localhost:3000";
 
 
-const MapWithISS = () => {
+const Map = () => {
   const [issLocation, setIssLocation] = useState<Coordinate>(center);
 
   useEffect(() => {
@@ -64,4 +64,4 @@ const MapWithISS = () => {
   );
 };
 
-export default MapWithISS;
+export default Map;
